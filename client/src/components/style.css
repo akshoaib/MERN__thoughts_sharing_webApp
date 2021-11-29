@@ -1,0 +1,118 @@
+.thought {
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  position: relative;
+  background-color: white;
+  box-shadow: -2px -1px 8px -1px rgba(0, 0, 0, 0.75);
+  float: left;
+}
+.img-div {
+  width: 300px;
+  height: 100px;
+  /* align-items: center; */
+  margin-left: 0;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  border-radius: 10px;
+  /* position: absolute; */
+  /* z-index: -1; */
+}
+img {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  filter: brightness(50%);
+  /* position: relative; */
+  /* opacity: 0.2; */
+  /* z-index: -1; */
+  /* border-radius: 10px; */
+}
+h5 {
+  position: absolute;
+  left: 15px;
+  top: 50px;
+  color: white;
+}
+p {
+  min-height: 200px;
+  /* border: 1px solid green; */
+}
+.likes {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(128, 128, 128); */
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  border-top: 1px solid grey;
+  position: absolute;
+  bottom: 0;
+}
+i {
+  font-size: 20px;
+}
+.like {
+  /* color: blue; */
+  /* background-color: blue; */
+  /* padding: 10px; */
+  color: red;
+  font-weight: bolder;
+  /* border-radius: 20%; */
+  font-size: 20px;
+  cursor: pointer;
+}
+.iconl {
+  cursor: pointer;
+}
+.dlt {
+  cursor: pointer;
+}
+/* .gg {
+  background-color: white;
+} */
+.myform {
+  position: fixed;
+  /* height: 50%; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  /* border: 1px solid red !important; */
+}
+
+input {
+  width: 90%;
+  margin-left: 17px;
+  margin-bottom: 5px;
+  padding: 5px;
+  outline: none;
+}
+textarea {
+  width: 90%;
+  margin-left: 17px;
+  margin-bottom: 5px;
+  padding: 5px;
+  outline: none;
+  resize: none;
+}
+.navbar {
+  background-color: white;
+  color: blue;
+}
+
+.btnn {
+  /* padding: 50px; */
+  /* width: 100%; */
+}
+/* @media screen and {
+} */
+@media only screen and (max-width: 600px) {
+  .myform {
+    position: relative;
+  }
+}
